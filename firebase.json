@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "dist/survey-app",
+    "rewrites": [
+      
+          {
+      
+              "source": "**",
+      
+              "destination": "/index.html"
+      
+          }
+      
+      ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
